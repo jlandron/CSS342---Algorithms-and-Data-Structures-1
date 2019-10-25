@@ -6,38 +6,39 @@
 using namespace std;
 
 class LongInt {
-  friend istream &operator>>( istream &in, LongInt &rhs );
-  friend ostream &operator<<( ostream &out, const LongInt &rhs );
- public:
-  // Constructors
-  LongInt( const string str ); 
-  LongInt( const LongInt &rhs );
-  LongInt( );
+    friend istream &operator>>(istream &in, LongInt &rhs);
+    friend ostream &operator<<(ostream &out, const LongInt &rhs);
 
-  // Destructor
-  ~LongInt( );
+   public:
+    // Constructors
+    LongInt(const string str);
+    LongInt(const LongInt &rhs);
+    LongInt();
 
-  // Arithmetic binary operators
-  LongInt operator+( const LongInt &rhs ) const;
-  LongInt operator-( const LongInt &rhs ) const;
+    // Destructor
+    ~LongInt();
 
-  // assignment operators
-  const LongInt &operator=( const LongInt &rhs );
+    // Arithmetic binary operators
+    LongInt operator+(const LongInt &rhs) const;
+    LongInt operator-(const LongInt &rhs) const;
 
-  // Logical binary operators
-  bool operator< ( const LongInt & rhs ) const;
-  bool operator<=( const LongInt & rhs ) const;
-  bool operator> ( const LongInt & rhs ) const;
-  bool operator>=( const LongInt & rhs ) const;
-  bool operator==( const LongInt & rhs ) const;
-  bool operator!=( const LongInt & rhs ) const;
+    // assignment operators
+    const LongInt &operator=(const LongInt &rhs);
 
-  int getSize(const LongInt & temp);
+    // Logical binary operators
+    bool operator<(const LongInt &rhs) const;
+    bool operator<=(const LongInt &rhs) const;
+    bool operator>(const LongInt &rhs) const;
+    bool operator>=(const LongInt &rhs) const;
+    bool operator==(const LongInt &rhs) const;
+    bool operator!=(const LongInt &rhs) const;
 
- private:
-  Deque<char> digits;
-  bool negative;
-  void remove0s( );
+    int getSize(const LongInt &temp);
+
+   private:
+    Deque<char> digits;
+    bool negative;
+    void remove0s();
 };
 
 #endif
