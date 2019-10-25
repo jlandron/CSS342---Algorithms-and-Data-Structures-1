@@ -1,0 +1,17 @@
+root@DESKTOP-38F20DM:/mnt/c/Users/Joshua Landron/OneDrive/Documents/CSS342/Lab5#
+./a.out
+#faculty members: 4
+stiber
+fukuda
+cioch
+berger
+
+#faculty members: 3
+stiber
+fukuda
+berger
+
+#faculty members: 3
+stiber
+berger
+fukuda

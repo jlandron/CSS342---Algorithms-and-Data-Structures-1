@@ -1,0 +1,16 @@
+[21.09.2019]
+1569117426991
+cppcheck-error:0
+cppcheck-warning:0
+cppcheck-style:1
+cppcheck-performance:0
+cppcheck-portability:0
+[21.09.2019]
+1569117494686
+cppcheck-error:0
+cppcheck-warning:0
+cppcheck-style:1
+cppcheck-performance:0
+cppcheck-portability:0
+[21.09.2019]
+1569117574015

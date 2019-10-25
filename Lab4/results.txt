@@ -1,0 +1,38 @@
+Joshua Landron
+sample output for lab 4
+
+root@DESKTOP-38F20DM:/mnt/c/Users/Joshua Landron/OneDrive/Documents/C++/Lab4# ./a.out 16 4
+initial:
+items[0] = 10
+items[1] = 4
+items[2] = 3
+items[3] = 5
+items[4] = 13
+items[5] = 2
+items[6] = 6
+items[7] = 14
+items[8] = 12
+items[9] = 9
+items[10] = 0
+items[11] = 11
+items[12] = 15
+items[13] = 7
+items[14] = 8
+items[15] = 1
+sorted:
+items[0] = 0
+items[1] = 4
+items[2] = 3
+items[3] = 5
+items[4] = 2
+items[5] = 1
+items[6] = 6
+items[7] = 7
+items[8] = 8
+items[9] = 9
+items[10] = 10
+items[11] = 11
+items[12] = 12
+items[13] = 13
+items[14] = 14
+items[15] = 15

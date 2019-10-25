@@ -1,0 +1,5 @@
+JOSH@DESKTOP-FMLE93V:/mnt/../Documents/CSS342/Lab6$ ./a.out
+(5 * 10 > 49 ) - 12 % 10 + 10 | 6
+15
+2+2
+4
